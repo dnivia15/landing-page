@@ -44,6 +44,7 @@ ul{
 .title1{
     font-size: 36px;
     font-weight: 900;
+    color: white;
 }
 
 button{
@@ -51,6 +52,14 @@ button{
 }
 .subtitle1{
     max-width:300px; 
+   color: rgb(220, 232, 178);
+}
+
+.button1{
+    background-color: #3f7b51;
+    color:white;
+    border: none;
+    border-radius: 5px;
 }
 
 .img {
