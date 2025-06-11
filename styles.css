@@ -143,3 +143,10 @@ button{
     font-weight: 900;
 }
 
+/* sectio six */
+.sectionSix-footer{
+    background-color: #1f3927;
+    color:white;
+    text-align: center;
+    padding: 25px 0px;
+}
