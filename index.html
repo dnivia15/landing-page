@@ -4,21 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="dark-blue">
+    <!-- <div id="main-site"> -->
+    <header class="dark-blue-header blue">
+        <!-- consider making these divs???? -->
         <h1>Header Logo</h1>
-        <p>header link one</p>
-        <p>header link two</p>
-        <p>header link three</p>
+        <div>header link one</div>
+        <div>header link two</div>
+        <div>header link three</div>
     </header>
-    <div class="dark-blue-section">
-        <div class="part-a-blue-section">
+    <div class="dark-blue-section blue">
+        <div class="part-a-blue-section blue">
             <h1>This website is awesome</h1>
             <p>This website has some subtext that goes here under the main title. It's smaller and the color is lower contrast </p>
             <button>Sign Up</button>
         </div>
-        <div class="part-b-blue-section">
+        <div class="part-b-blue-section blue">
             <div class="image-placeholder">this is a placeholder for an image</div>
         </div>
     </div>
@@ -26,6 +29,7 @@
         <div class="encompassing-section">
             <!-- grouping in the encompassing section -->
             <div class="some-text">Some random information</div>
+        <div class="subgroup-image-text">
             <div class="grouped-image-text">
                 <div class="image-alone"></div> <!--remember to create a border and round edges-->
                 <div class="text-alone">this is some subtext under some illustration</div>
@@ -42,9 +46,20 @@
                 <div class="image-alone"></div> <!--remember to create a border and round edges-->
                 <div class="text-alone">this is some subtext under some illustration</div>
             </div>
+
+        </div>
         </div>
     </div>
-    <div></div>
+    <div class="quote-grey-section">
+        <div><em>This is an inspiring quote or a testimonial from a customer. Maybe it's just filling up space or maybe actually people read it. Who knows? All I know it looks nice</em></div>
+        <div><strong>-Thor, God of Thunder</strong></div>
+    </div>
+    <div class="last-section-call">
+        <div class="bold-text-action">Call to action! It's time!</div>
+        <div class="text-info">Sign up for our product by clicking on the product over there!</div>
+        <button class="sign-up-button">Sign up</button>
+    </div>
     <footer class="dark-blue">Copyright 2025 - Daniel Nivia ©</footer>
+    <!-- </div> -->
 </body>
 </html>
